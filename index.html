@@ -475,17 +475,23 @@
           <textarea class="coment" name="user_message" id="message" cols="75" rows="10" placeholder="Введіть текст"></textarea>
          </div>
 
-        <lable class="form-privacy">
-          <input type="checkbox" class="hidden" checked="">
-            <span class="form_check">
+
+         <label for="privacy" class="form-privacy">
+          <input type="checkbox" name="box" id="privacy" class="hidden" />
+
+          <span class="form_check">
             <svg class="icon_check_box" widht="11" height="8" >
             <use href="./image/sprite.svg#icon-check"></use>
             </svg>
             </span>
-            <span>Погоджуюся з розсилкою та приймаю <a href=""> Умови договору</a></span>
-        </lable>
+          <span>Погоджуюся з розсилкою та приймаю  <a class="contract" href="">  Умови договору</a> </span>
+
+        </label>
+
+        <button class="button modal_button" type="button">Відправити</button>
 
       </form>
+
 
     </div>
   </div>
