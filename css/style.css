@@ -327,9 +327,12 @@ ul {
   font-size: 20px;
   line-height: 1.15;
   color: #212121;
+  margin-bottom: 12px;
 }
 
 .form_input{position: relative;
+  margin-bottom: 12px;
+
  
 }
 
@@ -755,8 +758,12 @@ address {
   background-color: var(--accent-color);
   fill: var(--color-light);
 }
+.subscribe{margin-left: auto;}
 
-/* .subscribe{margin-left: auto;} */
+.subscribe_form {display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .subscribe .title {
   font-weight: 700;
@@ -783,6 +790,8 @@ address {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 12px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .subscribe_button:hover,
@@ -790,7 +799,10 @@ address {
   background-color: var(--color-light);
   color: var(--text-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+
+.text_subscribe{margin-right: 10px;}
 
 .subscribe .label {
   width: 358px;
